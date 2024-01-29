@@ -1,0 +1,77 @@
+:root {
+    --navy-blue: #1D2D5C;
+    --royal-blue: #134A8E;
+    --red: #E8291C;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    width: 1000px;
+    max-width: 75%;
+    padding: 50px;
+}
+
+.row {
+    display: grid;
+    gap: 20px;
+}
+
+.button {
+    background-color: var(--royal-blue);
+    padding: 20px;
+    color: var(--white);
+    border-color: var(--navy-blue);
+    border-width: 10px;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    border-color: var(--red);
+}
+
+.start, .next {
+    background-color: var(--royal-blue);
+    padding: 10px;
+    color: var(--white);
+    border-color: var(--navy-blue);
+    border-width: 5px;
+    font-size: 20px;
+}
+
+.start-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.start:hover, .next:hover {
+    cursor: pointer;
+    border-color: var(--red);
+    padding: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+.form {
+    background-color: var(--royal-blue);
+}

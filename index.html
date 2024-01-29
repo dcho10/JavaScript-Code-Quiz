@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>JavaScript Coding Quiz</title>
+</head>
+
+<body>
+    
+    <section class="card">
+       
+        <section id="container" class="hide">
+            
+            <h2 id="question"> Click start to begin! </h2>
+            
+            <section id="answer-buttons" class="row">
+                <button class="button">Welcome</button>
+                <button class="button">to</button>
+                <button class="button">the</button>
+                <button class="button">Quiz!</button>
+            </section>
+        
+        </section>
+
+        <section class="start-next">
+            
+            <button id="start-button" class="start">Click to start!</button>
+            <button id="next-button" class="next">Next</button>
+            <h3 id="timer"></h3>
+
+        </section>
+
+        <p id="response"></p>
+
+        <form id="form" class="hide" class="form">
+            <h4>High Scores</h4>
+            <label for="user">Initials:</label>
+            <input type="text" id="user" name="user" required/>
+            <ul id="highscore-list"></ul>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </section>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
