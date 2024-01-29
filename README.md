@@ -15,4 +15,4 @@ At the end of the quiz, the user will be able to submit their score and restart 
 ### Links to the application:
 
 # Repository: https://github.com/dcho10/JavaScript-Code-Quiz
-# Application: 
+# Application: https://dcho10.github.io/JavaScript-Code-Quiz/
